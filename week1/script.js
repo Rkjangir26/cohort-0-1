@@ -188,18 +188,64 @@
 // passing an function ina an argument
 
 
-function calculate(a,b,arithmeticFunction){
+// function calculate(a,b,arithmeticFunction){
 
-    function arithmeticFunction(a,b){
-        return a+b;
-    }
-    const ans = arithmeticFunction(a,b);
-    return ans;
-}
-    function sum(a,b){
-        return a+b;
-    }
-    const cal = calculate(5,7,sum);
-    console.log(cal);
+//     function arithmeticFunction(a,b){
+//         return a+b;
+//     }
+//     const ans = arithmeticFunction(a,b);
+//     return ans;
+// }
+//     function sum(a,b){
+//         return a+b;
+//     }
+//     const cal = calculate(5,7,sum);
+//     console.log(cal);
+
+// let num = [20, 45,78];
+// let largest=num[0];
+
+// for (let i=0; i<num.length;i++){
+
+//     if(num[i] > largest){
+//         largest=num[i];
+//     }
+//     }
+//     console.log(largest)
+
+
+// function sum(num1,num2,sumFunction){
+//      function  sumFunction(num1,num2){
+//         result = num1+num2;
+//         return result;
+//     }
+    
+    
+// }
+
+// function displayResult(data){
+//     console.log("result of the sum is :"+data);
+
+// }
+// function displayResultPassive(data){
+//     console.log("num1 and num2 sum is :"+data);
+    
+// }
+
+
+// const val =sum(8,2,"displayResult")
+// console.log(val)
+
+
+// //settime out
+// function greet(){
+//     console.log("helo world")
+
+// }
+// setTimeout(greet, 1*1000)
+
+    
+
+
     
 
